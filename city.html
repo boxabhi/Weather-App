@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap" rel="stylesheet">
+    <title>Weather app</title>
+</head>
+<body>
+
+
+    <div class="container">
+        
+        <h1 id="h1">Weather app</h1>
+        
+        <div class="images">
+            <img src="icon/sunny.png" style=" margin-left: -25px;">
+            <img src="icon/cloudy.png">
+            <img src="icon/fog.png">
+            <img src="icon/storm.png">
+
+            <h4 id="date"></h4>
+        </div>
+
+        <div class="take-input">
+            <input type="text" placeholder="City Name"> <br/>
+            <button class="btn">Submit</button>
+        </div>
+
+
+        <section class="slide">
+                <div class="previous">
+                    <p id="city-one">Lucknow</p>
+                   <h4 id="temp-one"><img src="/icon/storm.png" id="previous-img">20°C</h4>
+            </div>
+            <div class="previous">
+                    <p id="city-twp">Delhi</p>
+                  
+                   <h4 id="temp-two"><img src="/icon/cloudy.png" id="previous-img">20°C</h4>
+            </div>
+            <div class="previous">
+                    <p id="city-three">Kanpur</p>
+                   <h4 id="temp-three"><img src="/icon/storm.png" id="previous-img">20°C</h4>
+            </div>
+            <div class="previous">
+                    <p id="city-four">Varanasi</p>
+                   <h4 id="temp-four"><img src="/icon/sunny.png" id="previous-img">20°C</h4>
+            </div>
+            </section>
+
+    </div>
+    
+
+    
+
+<script src="app.js"></script>
+</body>
+</html>
